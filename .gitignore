@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+.pytest_cache/
+.benchmarks/
+
+# Training outputs
+outputs/
+*.pkl
+*.pt
+*.ckpt
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Env
+.env
+
+# macOS
+.DS_Store

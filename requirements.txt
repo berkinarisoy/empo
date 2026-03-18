@@ -1,0 +1,18 @@
+# Core environment
+nmmo
+
+# Deep learning
+torch>=2.0
+
+# Config management
+hydra-core
+omegaconf
+
+# Experiment tracking
+wandb
+
+# Serialization (required for NMMO task specs)
+dill
+
+# Testing
+pytest
