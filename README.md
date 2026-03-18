@@ -6,19 +6,34 @@
 
 ## Setup
 
-# Install pyenv (mac)
+**Install pyenv (mac)** 
+
+```bash
 brew install pyenv
 echo 'eval "$(pyenv init -)"' >> ~/.zshrc && source ~/.zshrc
+```
 
-# Install the right Python
+**Install the right Python**
+
+```bash
 pyenv install 3.10.14
+```
 
-# Clone and enter the repo
+**Clone and enter the repo**
+
+```bash
 git clone https://github.com/berkinarisoy/empo
 cd empo  
+```
 
-# Create venv and install
+**Create venv and install**
+
+```bash
 make setup
+```
 
-# Verify
-python -c "import nmmo; print('nmmo OK')"
+**Verify setup**
+
+```bash
+make test
+```
